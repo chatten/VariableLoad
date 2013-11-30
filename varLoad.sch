@@ -1,0 +1,258 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:varLoad-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "24 nov 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM741 U?
+U 1 1 526BEDCF
+P 3900 3650
+F 0 "U?" H 4050 3800 60  0000 C CNN
+F 1 "LM741" H 4050 3900 60  0000 C CNN
+F 2 "" H 3900 3650 60  0000 C CNN
+F 3 "" H 3900 3650 60  0000 C CNN
+	1    3900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM741 U?
+U 1 1 526BEDDC
+P 6600 3750
+F 0 "U?" H 6750 3900 60  0000 C CNN
+F 1 "LM741" H 6750 4000 60  0000 C CNN
+F 2 "" H 6600 3750 60  0000 C CNN
+F 3 "" H 6600 3750 60  0000 C CNN
+	1    6600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 526BEF9D
+P 3800 2700
+F 0 "#PWR?" H 3800 2790 20  0001 C CNN
+F 1 "+5V" H 3800 2790 30  0000 C CNN
+F 2 "" H 3800 2700 60  0000 C CNN
+F 3 "" H 3800 2700 60  0000 C CNN
+	1    3800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 526BEFD7
+P 7450 4550
+F 0 "R?" V 7530 4550 40  0000 C CNN
+F 1 "1" V 7457 4551 40  0000 C CNN
+F 2 "~" V 7380 4550 30  0000 C CNN
+F 3 "~" H 7450 4550 30  0000 C CNN
+	1    7450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 526BEFFA
+P 7450 4900
+F 0 "#PWR?" H 7450 4900 30  0001 C CNN
+F 1 "GND" H 7450 4830 30  0001 C CNN
+F 2 "" H 7450 4900 60  0000 C CNN
+F 3 "" H 7450 4900 60  0000 C CNN
+	1    7450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52818700
+P 4850 3650
+F 0 "R?" V 4930 3650 40  0000 C CNN
+F 1 "10k" V 4857 3651 40  0000 C CNN
+F 2 "~" V 4780 3650 30  0000 C CNN
+F 3 "~" H 4850 3650 30  0000 C CNN
+	1    4850 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5281870D
+P 5150 3900
+F 0 "R?" V 5230 3900 40  0000 C CNN
+F 1 "10k" V 5157 3901 40  0000 C CNN
+F 2 "~" V 5080 3900 30  0000 C CNN
+F 3 "~" H 5150 3900 30  0000 C CNN
+	1    5150 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52818726
+P 5150 4300
+F 0 "#PWR?" H 5150 4300 30  0001 C CNN
+F 1 "GND" H 5150 4230 30  0001 C CNN
+F 2 "" H 5150 4300 60  0000 C CNN
+F 3 "" H 5150 4300 60  0000 C CNN
+	1    5150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52818743
+P 3800 4200
+F 0 "#PWR?" H 3800 4200 30  0001 C CNN
+F 1 "GND" H 3800 4130 30  0001 C CNN
+F 2 "" H 3800 4200 60  0000 C CNN
+F 3 "" H 3800 4200 60  0000 C CNN
+	1    3800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L VR VR?
+U 1 1 5281876D
+P 2700 3150
+F 0 "VR?" V 2760 3104 40  0000 C TNN
+F 1 "50k" V 2700 3150 40  0000 C CNN
+F 2 "~" H 2700 3150 60  0000 C CNN
+F 3 "~" H 2700 3150 60  0000 C CNN
+	1    2700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 528187AC
+P 2700 2700
+F 0 "#PWR?" H 2700 2790 20  0001 C CNN
+F 1 "+5V" H 2700 2790 30  0000 C CNN
+F 2 "" H 2700 2700 60  0000 C CNN
+F 3 "" H 2700 2700 60  0000 C CNN
+	1    2700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_N Q?
+U 1 1 52818814
+P 7350 3750
+F 0 "Q?" H 7360 3920 60  0000 R CNN
+F 1 "MTP3055" H 7360 3600 60  0000 R CNN
+F 2 "~" H 7350 3750 60  0000 C CNN
+F 3 "~" H 7350 3750 60  0000 C CNN
+F 4 "MTP3055VLFS-ND" H 7350 3750 60  0001 C CNN "Part Number"
+	1    7350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 528188C1
+P 6500 2700
+F 0 "#PWR?" H 6500 2790 20  0001 C CNN
+F 1 "+5V" H 6500 2790 30  0000 C CNN
+F 2 "" H 6500 2700 60  0000 C CNN
+F 3 "" H 6500 2700 60  0000 C CNN
+	1    6500 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2700 3800 3250
+Wire Wire Line
+	7450 4800 7450 4900
+Wire Wire Line
+	3400 3750 3100 3750
+Wire Wire Line
+	3100 3750 3100 4350
+Wire Wire Line
+	3100 4350 4600 4350
+Wire Wire Line
+	4600 4350 4600 3650
+Wire Wire Line
+	4600 3650 4400 3650
+Wire Wire Line
+	5100 3650 6100 3650
+Wire Wire Line
+	5150 4300 5150 4150
+Wire Wire Line
+	3800 4050 3800 4200
+Wire Wire Line
+	2700 3550 3400 3550
+Wire Wire Line
+	2700 3400 2700 3550
+Wire Wire Line
+	2700 2700 2700 2900
+Wire Wire Line
+	7450 3950 7450 4300
+Wire Wire Line
+	7450 4250 6100 4250
+Wire Wire Line
+	6100 4250 6100 3850
+Connection ~ 7450 4250
+Wire Wire Line
+	7100 3750 7150 3750
+Connection ~ 5150 3650
+Wire Wire Line
+	6500 3350 6500 2700
+Wire Wire Line
+	7450 2700 7450 3550
+Text Notes 2600 2200 0    60   ~ 0
+Could use USB to power 5V
+Wire Wire Line
+	7450 2700 7750 2700
+Wire Wire Line
+	7800 2900 7600 2900
+Wire Wire Line
+	7600 2900 7600 3200
+$Comp
+L GND #PWR?
+U 1 1 52818BE3
+P 7600 3200
+F 0 "#PWR?" H 7600 3200 30  0001 C CNN
+F 1 "GND" H 7600 3130 30  0001 C CNN
+F 2 "" H 7600 3200 60  0000 C CNN
+F 3 "" H 7600 3200 60  0000 C CNN
+	1    7600 3200
+	1    0    0    -1  
+$EndComp
+Text Notes 7850 2800 0    60   ~ 0
+Input cct 
+Text Notes 7900 2400 0    60   ~ 0
+Design for 30V input & 2Amax
+Text Notes 7700 3750 0    60   ~ 0
+Possible Heatsink\nFA-T220-64E-ND\n3deg/W
+Text Notes 3450 4750 0    60   ~ 0
+LM324\n296-1391-5-ND
+$EndSCHEMATC
