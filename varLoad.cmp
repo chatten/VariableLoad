@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014-02-17 9:06:51 PM
+
+BeginCmp
+TimeStamp = /5302B749;
+Reference = BT1;
+ValeurCmp = 4xAAA;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302B8E5;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53028FA8;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302BC87;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302BAA4;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52818814;
+Reference = Q1;
+ValeurCmp = MTP3055;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302BC4C;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /530291BE;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53028E89;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53028E8F;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53028F78;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /526BEFD7;
+Reference = R6;
+ValeurCmp = 1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52FA98D2;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302B859;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52FA9097;
+Reference = U1;
+ValeurCmp = LM324;
+IdModule  = ;
+EndCmp
+
+EndListe
