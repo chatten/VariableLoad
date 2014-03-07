@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014-02-17 9:06:51 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014-03-06 9:27:11 PM
 
 BeginCmp
 TimeStamp = /5302B749;
@@ -39,7 +39,7 @@ BeginCmp
 TimeStamp = /52818814;
 Reference = Q1;
 ValeurCmp = MTP3055;
-IdModule  = ;
+IdModule  = TO220_W_HEATSINK;
 EndCmp
 
 BeginCmp
