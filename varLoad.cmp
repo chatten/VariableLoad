@@ -1,16 +1,9 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014-03-08 10:42:25 AM
-
-BeginCmp
-TimeStamp = /5302B749;
-Reference = BT1;
-ValeurCmp = 4xAAA;
-IdModule  = ;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014-03-09 9:30:47 PM
 
 BeginCmp
 TimeStamp = /5302B8E5;
 Reference = C1;
-ValeurCmp = C;
+ValeurCmp = 0.1u;
 IdModule  = SM1206;
 EndCmp
 
@@ -33,6 +26,27 @@ TimeStamp = /5302BAA4;
 Reference = D2;
 ValeurCmp = DIODE;
 IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /531C77E9;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = RASM722_PowerJack;
+EndCmp
+
+BeginCmp
+TimeStamp = /531D156A;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = bindingPost;
+EndCmp
+
+BeginCmp
+TimeStamp = /531D1579;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = bindingPost;
 EndCmp
 
 BeginCmp
@@ -92,17 +106,10 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /5302B859;
-Reference = SW1;
-ValeurCmp = SPST;
-IdModule  = ;
-EndCmp
-
-BeginCmp
 TimeStamp = /52FA9097;
 Reference = U1;
 ValeurCmp = LM324;
-IdModule  = ;
+IdModule  = DIP-14__300;
 EndCmp
 
 EndListe

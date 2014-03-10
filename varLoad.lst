@@ -1,0 +1,38 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 2014-03-09 9:19:48 AM
+#Cmp ( order = Reference )
+| BT1        4xAAA       ; 2481K-ND    
+| C1         C           ;             
+| C2         C           ;             
+| D1         LED         ;             
+| D2         DIODE       ;             
+| Q1         MTP3055     ; MTP3055VLFS-ND
+| R1         10k         ;             
+| R2         10k         ;             
+| R3         10k         ;             
+| R4         10k         ;             
+| R5         10k         ;             
+| R6         1           ;             
+| RV1        POT         ;             
+| SW1        SPST        ;             
+| U1         LM324       ; 296-1391-5-ND
+#End Cmp
+
+#Cmp ( order = Value )
+| 4xAAA        BT1       ; 2481K-ND    
+| C            C1        ;             
+| C            C2        ;             
+| LED          D1        ;             
+| DIODE        D2        ;             
+| MTP3055      Q1        ; MTP3055VLFS-ND
+| 1            R6        ;             
+| 10k          R1        ;             
+| 10k          R2        ;             
+| 10k          R3        ;             
+| 10k          R4        ;             
+| 10k          R5        ;             
+| POT          RV1       ;             
+| SPST         SW1       ;             
+| LM324        U1        ; 296-1391-5-ND
+#End Cmp
+
+#End List
